@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="bccs.css" />
+  <title>BCC Portfolio</title>
+</head>
+
+<body>
+  <div class="pinakababaw">
+    <span class="school-hours">School Hours: Mon-Fri 8:00 AM - 5:00 PM</span>
+    <span class="contact-info">Contact: +1 (555) 123-4567</span>
+  </div>
+
+  <header>
+    <div class="main nav"></div>
+
+
+    <nav class="nabigation" id="navlinks">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#courses">COURSES</a>
+      <a href="#teachers">TEACHERS</a>
+      <a href="#department">DEPARTMENT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="ikaduwa">
+      <img src="gate.jpg" alt="BCC Gate" />
+
+      <div class="sulat">
+        <h1>Hello, Welcome to <span> BCC </span></h1>
+
+        <p>
+          Welcome to BCC. We are committed to providing quality education and developing
+          students into competent, responsible, and globally competitive individuals.
+          Our institution promotes academic excellence, leadership, and character formation.
+        </p>
+
+        <p>
+          At BCC, we believe that education is the foundation of success. Our programs are
+          designed to equip students with practical skills, strong values, and real-world
+          experience.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero" id="courses">
+    <div class="bida">
+      <img src="gate.jpg" alt="gate" />
+
+
+      <div class="sulat">
+        <h1>Our Courses</h1>
+
+        <p>
+          We offer a wide range of courses to cater to the diverse interests and career goals
+          of our students. Our programs include:
+        </p>
+
+        <ul>
+          <li a  href= "#computer" id="computer">Computer Science</li>
+          
+          <li id="business-administration">Business Administration</li>
+          <li id="education">Education</li>
+          <li id="accounting">Accounting</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- TEACHERS ai nisa sir ha basi ma ngakig kabala aw? hahahaha! -->
+  <section class="teachers" id="teachers">
+    <div class="container">
+      <h2>Our Dedicated Teachers</h2>
+      <p>Meet the passionate educators who guide our students towards success.</p>
+      <div class="teachers-grid">
+        <div class="teacher-card">
+          <img src="efg.jpg" alt="Eghert mijares" />
+          <h3>Eghert Mijares</h3>
+          <p>Software Engineering </p>
+        </div>
+        <div class="teacher-card">
+          <img src="aye.jpg" alt="Aye Solina" />
+          <h3>Aye Solina</h3>
+          <p>Admin</p>
+           <p>Computer Science instructor</p>
+          
+        </div>
+        <div class="teacher-card">
+          <img src="calds.jpg" alt="Gilbert Calderon" />
+          <h3>Gilbert Calderon</h3>
+          <p>Computer Science instructor</p>
+        </div>
+        <div class="teacher-card">
+          <img src="king.jpg" alt="King Renier Sevillio" />
+          <h3>King Renier Sevillio</h3>
+           <p>Computer Science instructor</p>
+        </div>
+        <div class="teacher-card">
+          <img src="joerub.jpg" alt="Joerub Cornelio" />
+          <h3>Joerub Cornelio</h3>
+         <p>Computer Science instructor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPARTMENT -->
+  <section class="department-section" id="department">
+    <div class="container">
+      <h2>Our Academic Departments</h2>
+      <p>Explore the diverse colleges and programs offered at BCC.</p>
+
+      <div class="department-college">
+        <div class="department-content">
+          <h3>College of Arts and Business Administration (CABAIT)</h3>
+          <p>
+            The College of Arts and Business Administration (CABAIT) offers a comprehensive range of programs designed to cultivate critical thinking, creativity, and business acumen. Students in CABAIT are prepared for dynamic careers in various fields, from arts and humanities to finance and management.
+          </p>
+          <ul>
+            <li>Bachelor of Science in Business Administration</li>
+          
+            <li>Bachelor of Science in Accountancy</li>
+           
+            <li>Bachelor of Science in Information Technology</li>
+          </ul>
+        </div>
+        <img src="cab.jpg" alt="CABAIT Building" />
+      </div>
+
+      <div class="department-college reverse-order">
+        <img src="coed.jpg" alt="College of Education Building" />
+        <div class="department-content">
+          <h3>College of Education</h3>
+          <p>
+            The College of Education is dedicated to nurturing future educators who are passionate, skilled, and committed to shaping the next generation. Our programs emphasize innovative teaching methodologies, child development, and practical classroom experience, preparing graduates to be effective and inspiring teachers.
+          </p>
+          <ul>
+            <li>Bachelor of Elementary Education</li>
+            <li>Bachelor of Secondary Education</li>
+           
+            
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+    
+      <h2>Contact Us</h2>
+      <p> <strong> you want to work together, send us a message. </strong> </p>
+      <div class = "sulat">
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message..." required></textarea>
+        <button class="btn" type="submit" id ="home">Send Message</button>
+      </form>
+      </div>
+    </div>
+  </section>
+    
+</body>
+</html>
+
